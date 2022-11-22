@@ -4,7 +4,6 @@ package tienda.persistencia;
 import tienda.entidades.Producto;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Scanner;
 
 /**
  *
@@ -12,7 +11,6 @@ import java.util.Scanner;
  */
 public final class ProductoDAO extends DAO {
     
-    Scanner read = new Scanner(System.in); 
 
     public Collection<Producto> query(String sql) throws Exception{
         
