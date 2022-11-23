@@ -19,7 +19,7 @@ public abstract class DAO {
     protected final String user = "root";
     protected final String password = "root";
     protected final String driver = "com.mysql.jdbc.Driver";
-    protected final String url = "jdbc:mysql://localhost:3306/tienda";
+    protected final String url = "jdbc:mysql://localhost:3306/tienda?useSSL=false";
     
  //Conecta la base de datos       
     protected void conectionBase() throws ClassNotFoundException, SQLException {
